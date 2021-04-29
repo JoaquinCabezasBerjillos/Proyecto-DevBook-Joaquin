@@ -1,0 +1,244 @@
+/* Tu Código hero-quotes empieza aqui */
+
+.hero-quotes{
+    border-left: 5px solid #ED6424;
+    margin-top: 10%;
+    background-color: #F7F8FC;
+    padding: 20px 20px 20px 20px;
+}
+
+.perfil1{
+    width: 10%;
+    height: 10%;
+}
+
+.jamesfoto{
+    display:flex;
+    align-items: center;
+    margin-top: 3%;
+} 
+
+.prueba{
+    margin:0px;
+    margin-left: 20px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones button{
+    background-color:rgb(177, 177, 177);
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.botones button:hover{
+    background-color:#9B9898;
+}
+/* Tu Código hero-quotes termina aqui */
+
+
+/* Tu Código benefits-section empieza aqui */
+
+.whatget{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 65%;
+}
+
+.whatget div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle{
+    color: black;
+    margin-top:15px;
+    width: 230px;
+    text-align: center;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.3px;
+    line-height: 18px;
+}
+
+.text{
+    color: #6C5D6C;
+    margin-top:0px;
+    width: 250px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.3px;
+    line-height: 19px;
+}
+
+/* Tu Código benefits-section termina aqui */
+
+/* Tu Código What's Included empieza aqui */
+
+.libromovil{
+    width: 320px;
+    height: 430px;
+}
+
+.whatin{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.lista{
+    padding-left: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listado{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    padding-bottom: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: 0px;
+}
+
+.listado img{
+    width: 15px;
+    height: 15px; 
+}
+
+.cta-holder{
+    padding-bottom: 50px;
+    height:10px;
+}
+/* Tu Código What`s Included termina aquí */
+
+/* Tu Código form-section empieza aqui */
+
+.titulo4{
+    text-align: center;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 19px;
+    padding-bottom: 20px;
+}
+
+.getfree{
+    background: #F7F8FC;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+    width: 700px;
+    margin-left: 210px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 8px;
+    padding-bottom: 15px;
+}
+
+.email{
+    width: 25em;
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+::placeholder{
+    color: grey;
+}
+.send{
+    border:none;
+    color: white;
+    background: #EC6524;
+    width: 5em;
+    height: 3em;
+    border-radius: 5px;
+}
+
+/* Tu Código form-section termina aqui */
+
+/* Tu Código reviews-section empieza aqui */
+
+.bookreview1{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 250px;
+    justify-content: center;
+    grid-gap: 15px;
+    
+}
+
+.bookreview2{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px;
+    justify-content: center;
+    grid-gap: 15px;
+}
+
+.personas1, .personas2{
+    background-color: #F7F8FC;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 300px;
+    height: 80%;
+}
+
+.bookreview1 img{
+    height: 50px;
+    width: 50px;
+}
+
+.bookreview2 img{
+    height: 50px;
+    width: 50px;
+}
+
+.fotoperfil{
+    display:flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.comentario{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 0px 0px 20px;
+}
+
+.nombrecargo{
+    margin:0px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.leyenda{
+    text-align: center;
+}
+
+/* Tu Código reviews-section termina aqui */
